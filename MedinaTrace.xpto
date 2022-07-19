@@ -1,0 +1,1897 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<porteau version="4.00" jar="4.20.03" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://porteau.irstea.fr/XMLSchema/porteau_v3.0.xsd">
+  <projectGeneralities>
+    <equipment id="presentation">
+      <attr name="reseau">MEDINA - PH</attr>
+      <attr name="projet">LGCIV1051 PROJET PORTEAU 2020</attr>
+      <attr name="auteurs">LAMOTTE Pierre 65441500</attr>
+      <attr name="description" />
+      <attr name="dateDeCreation">08/11/2019 09:29:29</attr>
+      <attr name="referenceFondDePlan">/C:/Users/Baracuda/Downloads/medinaMerged.png</attr>
+      <attr name="coinBasGauche">719077.0;981121.0</attr>
+      <attr name="coinHautDroite">723759.0;987721.0</attr>
+      <attr name="pressionStandardDesiree">20.0</attr>
+      <attr name="coefficientMultiplicateurPdcLineaire">1.0</attr>
+      <attr name="choixLoiPerteDeChargeLineaire">Colebrook explicite</attr>
+    </equipment>
+    <equipment id="constant">
+      <attr name="accelerationPesanteur">9.81</attr>
+      <attr name="densiteFluide">1.0</attr>
+      <attr name="viscositeCinematique">1.0E-6</attr>
+    </equipment>
+  </projectGeneralities>
+  <reseau>
+    <node id="od_9" type="reseau.graphe.Ordinaire">
+      <attr name="coteSol">534.3</attr>
+      <attr name="xCarto">719450.5625</attr>
+      <attr name="yCarto">981269.75</attr>
+      <attr name="xSchema">719456.5625</attr>
+      <attr name="ySchema">981261.9375</attr>
+      <attr name="actif">true</attr>
+      <attr name="coteAbonneBas">534.3</attr>
+      <attr name="coteAbonneHaut">534.3</attr>
+      <attr name="cotePiezoDesiree">554.3</attr>
+    </node>
+    <node id="od_18" type="reseau.graphe.Ordinaire">
+      <attr name="coteSol">58.4</attr>
+      <attr name="xCarto">722587.5</attr>
+      <attr name="yCarto">982471.5625</attr>
+      <attr name="xSchema">722587.5</attr>
+      <attr name="ySchema">982471.5625</attr>
+      <attr name="actif">true</attr>
+      <attr name="coteAbonneBas">58.4</attr>
+      <attr name="coteAbonneHaut">58.4</attr>
+      <attr name="cotePiezoDesiree">78.4</attr>
+    </node>
+    <node id="od_19" type="reseau.graphe.Ordinaire">
+      <attr name="coteSol">12.8</attr>
+      <attr name="xCarto">722987.8125</attr>
+      <attr name="yCarto">984025.0625</attr>
+      <attr name="xSchema">722987.8125</attr>
+      <attr name="ySchema">984025.0625</attr>
+      <attr name="actif">true</attr>
+      <attr name="coteAbonneBas">12.8</attr>
+      <attr name="coteAbonneHaut">12.8</attr>
+      <attr name="cotePiezoDesiree">32.8</attr>
+    </node>
+    <node id="od_21" type="reseau.graphe.Ordinaire">
+      <attr name="coteSol">127.8</attr>
+      <attr name="xCarto">721638.625</attr>
+      <attr name="yCarto">982574.5625</attr>
+      <attr name="xSchema">721638.625</attr>
+      <attr name="ySchema">982574.5625</attr>
+      <attr name="actif">true</attr>
+      <attr name="coteAbonneBas">127.8</attr>
+      <attr name="coteAbonneHaut">127.8</attr>
+      <attr name="cotePiezoDesiree">147.8</attr>
+    </node>
+    <node id="od_29" type="reseau.graphe.Ordinaire">
+      <attr name="coteSol">11.7</attr>
+      <attr name="xCarto">722907.375</attr>
+      <attr name="yCarto">984121.875</attr>
+      <attr name="xSchema">722906.5712965939</attr>
+      <attr name="ySchema">984121.9627991249</attr>
+      <attr name="actif">true</attr>
+      <attr name="coteAbonneBas">11.7</attr>
+      <attr name="coteAbonneHaut">11.7</attr>
+      <attr name="cotePiezoDesiree">31.7</attr>
+    </node>
+    <node id="od_30" type="reseau.graphe.Ordinaire">
+      <attr name="coteSol">9.5</attr>
+      <attr name="xCarto">722717.9375</attr>
+      <attr name="yCarto">984370.875</attr>
+      <attr name="xSchema">722717.9375</attr>
+      <attr name="ySchema">984370.875</attr>
+      <attr name="actif">true</attr>
+      <attr name="coteAbonneBas">9.5</attr>
+      <attr name="coteAbonneHaut">9.5</attr>
+      <attr name="cotePiezoDesiree">29.5</attr>
+    </node>
+    <node id="od_32" type="reseau.graphe.Ordinaire">
+      <attr name="coteSol">19.2</attr>
+      <attr name="xCarto">722046.0625</attr>
+      <attr name="yCarto">984318.375</attr>
+      <attr name="xSchema">722046.0625</attr>
+      <attr name="ySchema">984313.6875</attr>
+      <attr name="actif">true</attr>
+      <attr name="coteAbonneBas">19.2</attr>
+      <attr name="coteAbonneHaut">19.2</attr>
+      <attr name="cotePiezoDesiree">39.2</attr>
+    </node>
+    <node id="od_33" type="reseau.graphe.Ordinaire">
+      <attr name="coteSol">7.4</attr>
+      <attr name="xCarto">722694.125</attr>
+      <attr name="yCarto">984842.625</attr>
+      <attr name="xSchema">722694.125</attr>
+      <attr name="ySchema">984842.625</attr>
+      <attr name="actif">true</attr>
+      <attr name="coteAbonneBas">7.4</attr>
+      <attr name="coteAbonneHaut">7.4</attr>
+      <attr name="cotePiezoDesiree">27.4</attr>
+    </node>
+    <node id="od_34" type="reseau.graphe.Ordinaire">
+      <attr name="coteSol">6.7</attr>
+      <attr name="xCarto">722758.375</attr>
+      <attr name="yCarto">985054.625</attr>
+      <attr name="xSchema">722760.875</attr>
+      <attr name="ySchema">985054.6875</attr>
+      <attr name="actif">true</attr>
+      <attr name="coteAbonneBas">6.7</attr>
+      <attr name="coteAbonneHaut">6.7</attr>
+      <attr name="cotePiezoDesiree">26.7</attr>
+    </node>
+    <node id="od_35" type="reseau.graphe.Ordinaire">
+      <attr name="coteSol">10.0</attr>
+      <attr name="xCarto">722310.5</attr>
+      <attr name="yCarto">985254.875</attr>
+      <attr name="xSchema">722310.5</attr>
+      <attr name="ySchema">985254.875</attr>
+      <attr name="actif">true</attr>
+      <attr name="coteAbonneBas">10.0</attr>
+      <attr name="coteAbonneHaut">10.0</attr>
+      <attr name="cotePiezoDesiree">30.0</attr>
+    </node>
+    <node id="od_41" type="reseau.graphe.Ordinaire">
+      <attr name="coteSol">8.0</attr>
+      <attr name="xCarto">722494.0</attr>
+      <attr name="yCarto">984902.8125</attr>
+      <attr name="xSchema">722494.0</attr>
+      <attr name="ySchema">984902.8125</attr>
+      <attr name="actif">true</attr>
+      <attr name="coteAbonneBas">8.0</attr>
+      <attr name="coteAbonneHaut">8.0</attr>
+      <attr name="cotePiezoDesiree">28.0</attr>
+    </node>
+    <node id="od_50" type="reseau.graphe.Ordinaire">
+      <attr name="coteSol">13.3</attr>
+      <attr name="xCarto">722288.375</attr>
+      <attr name="yCarto">985745.6875</attr>
+      <attr name="xSchema">722290.875</attr>
+      <attr name="ySchema">985743.25</attr>
+      <attr name="actif">true</attr>
+      <attr name="coteAbonneBas">13.3</attr>
+      <attr name="coteAbonneHaut">13.3</attr>
+      <attr name="cotePiezoDesiree">33.3</attr>
+    </node>
+    <node id="od_51" type="reseau.graphe.Ordinaire">
+      <attr name="coteSol">8.7</attr>
+      <attr name="xCarto">722574.4375</attr>
+      <attr name="yCarto">985812.375</attr>
+      <attr name="xSchema">722574.4375</attr>
+      <attr name="ySchema">985812.375</attr>
+      <attr name="actif">true</attr>
+      <attr name="coteAbonneBas">8.7</attr>
+      <attr name="coteAbonneHaut">8.7</attr>
+      <attr name="cotePiezoDesiree">28.7</attr>
+    </node>
+    <node id="od_52" type="reseau.graphe.Ordinaire">
+      <attr name="coteSol">7.6</attr>
+      <attr name="xCarto">722760.25</attr>
+      <attr name="yCarto">985852.9375</attr>
+      <attr name="xSchema">722760.25</attr>
+      <attr name="ySchema">985852.9375</attr>
+      <attr name="actif">true</attr>
+      <attr name="coteAbonneBas">7.6</attr>
+      <attr name="coteAbonneHaut">7.6</attr>
+      <attr name="cotePiezoDesiree">27.6</attr>
+    </node>
+    <node id="od_53" type="reseau.graphe.Ordinaire">
+      <attr name="coteSol">18.4</attr>
+      <attr name="xCarto">721890.5625</attr>
+      <attr name="yCarto">985769.5</attr>
+      <attr name="xSchema">721890.5625</attr>
+      <attr name="ySchema">985769.5</attr>
+      <attr name="actif">true</attr>
+      <attr name="coteAbonneBas">18.4</attr>
+      <attr name="coteAbonneHaut">18.4</attr>
+      <attr name="cotePiezoDesiree">38.4</attr>
+    </node>
+    <node id="od_55" type="reseau.graphe.Ordinaire">
+      <attr name="coteSol">17.2</attr>
+      <attr name="xCarto">721690.4375</attr>
+      <attr name="yCarto">986725.0</attr>
+      <attr name="xSchema">721690.4375</attr>
+      <attr name="ySchema">986725.0</attr>
+      <attr name="actif">true</attr>
+      <attr name="coteAbonneBas">17.2</attr>
+      <attr name="coteAbonneHaut">17.2</attr>
+      <attr name="cotePiezoDesiree">37.2</attr>
+    </node>
+    <node id="od_57" type="reseau.graphe.Ordinaire">
+      <attr name="coteSol">12.2</attr>
+      <attr name="xCarto">720933.9375</attr>
+      <attr name="yCarto">987140.75</attr>
+      <attr name="xSchema">720933.9375</attr>
+      <attr name="ySchema">987140.75</attr>
+      <attr name="actif">true</attr>
+      <attr name="coteAbonneBas">12.2</attr>
+      <attr name="coteAbonneHaut">12.2</attr>
+      <attr name="cotePiezoDesiree">32.2</attr>
+    </node>
+    <node id="od_68" type="reseau.graphe.Ordinaire">
+      <attr name="coteSol">42.9</attr>
+      <attr name="xCarto">721112.625</attr>
+      <attr name="yCarto">985632.5</attr>
+      <attr name="xSchema">721112.625</attr>
+      <attr name="ySchema">985632.5</attr>
+      <attr name="actif">true</attr>
+      <attr name="coteAbonneBas">42.9</attr>
+      <attr name="coteAbonneHaut">42.9</attr>
+      <attr name="cotePiezoDesiree">62.9</attr>
+    </node>
+    <node id="Source Tag-anunand" type="reseau.graphe.Ressource">
+      <attr name="coteSol">20.0</attr>
+      <attr name="xCarto">719156.375</attr>
+      <attr name="yCarto">987630.4375</attr>
+      <attr name="xSchema">719156.375</attr>
+      <attr name="ySchema">987630.4375</attr>
+      <attr name="actif">true</attr>
+      <attr name="chargeImposeeO">20.0</attr>
+      <rel name="profilChargeImposeeZ" ref="Profil.3" />
+      <rel name="profilTemperatureImposee" ref="Profil.4" />
+      <attr name="volumeMaximumJournalierAutorise">250.0</attr>
+      <attr name="debitMaximumAutorise">0.0</attr>
+      <attr name="anneeRealisation">0</attr>
+      <attr name="sousType">Type.source</attr>
+    </node>
+    <node id="od_72" type="reseau.graphe.Ordinaire">
+      <attr name="coteSol">23.1</attr>
+      <attr name="xCarto">719588.4375</attr>
+      <attr name="yCarto">987621.8125</attr>
+      <attr name="xSchema">719587.9375</attr>
+      <attr name="ySchema">987621.625</attr>
+      <attr name="actif">true</attr>
+      <attr name="coteAbonneBas">23.1</attr>
+      <attr name="coteAbonneHaut">23.1</attr>
+      <attr name="cotePiezoDesiree">43.1</attr>
+    </node>
+    <node id="Source Dagalas 2" type="reseau.graphe.Ressource">
+      <attr name="coteSol">644.9</attr>
+      <attr name="xCarto">718317.9212747515</attr>
+      <attr name="yCarto">980907.0600000002</attr>
+      <attr name="xSchema">718318.0</attr>
+      <attr name="ySchema">980907.0625</attr>
+      <attr name="actif">true</attr>
+      <attr name="chargeImposeeO">644.9</attr>
+      <rel name="profilChargeImposeeZ" ref="Profil.5" />
+      <rel name="profilTemperatureImposee" ref="Profil.6" />
+      <attr name="volumeMaximumJournalierAutorise">500.0</attr>
+      <attr name="debitMaximumAutorise">0.0</attr>
+      <attr name="anneeRealisation">0</attr>
+      <attr name="sousType">Type.source</attr>
+    </node>
+    <node id="od_74" type="reseau.graphe.Ordinaire">
+      <attr name="coteSol">100.0</attr>
+      <attr name="xCarto">723444.0</attr>
+      <attr name="yCarto">983421.625</attr>
+      <attr name="xSchema">723444.0</attr>
+      <attr name="ySchema">983421.625</attr>
+      <attr name="actif">true</attr>
+      <attr name="coteAbonneBas">100.0</attr>
+      <attr name="coteAbonneHaut">100.0</attr>
+      <attr name="cotePiezoDesiree">120.0</attr>
+    </node>
+    <node id="Puits Portulin" type="reseau.graphe.Ressource">
+      <attr name="coteSol">39.3</attr>
+      <attr name="xCarto">719337.5</attr>
+      <attr name="yCarto">987508.875</attr>
+      <attr name="xSchema">719337.5</attr>
+      <attr name="ySchema">987508.875</attr>
+      <attr name="actif">true</attr>
+      <attr name="chargeImposeeO">41.8</attr>
+      <rel name="profilChargeImposeeZ" ref="Profil.7" />
+      <rel name="profilTemperatureImposee" ref="Profil.8" />
+      <attr name="volumeMaximumJournalierAutorise">200.0</attr>
+      <attr name="debitMaximumAutorise">0.0</attr>
+      <attr name="anneeRealisation">0</attr>
+      <attr name="sousType">Type.forage</attr>
+    </node>
+    <node id="Source Kibuntod" type="reseau.graphe.Ressource">
+      <attr name="coteSol">13.0</attr>
+      <attr name="xCarto">722022.1875</attr>
+      <attr name="yCarto">984628.1875</attr>
+      <attr name="xSchema">722022.1875</attr>
+      <attr name="ySchema">984628.1875</attr>
+      <attr name="actif">true</attr>
+      <attr name="chargeImposeeO">15.5</attr>
+      <rel name="profilChargeImposeeZ" ref="Profil.9" />
+      <rel name="profilTemperatureImposee" ref="Profil.10" />
+      <attr name="volumeMaximumJournalierAutorise">2000.0</attr>
+      <attr name="debitMaximumAutorise">0.0</attr>
+      <attr name="anneeRealisation">0</attr>
+      <attr name="sousType">Type.source</attr>
+    </node>
+    <node id="od_10" type="reseau.graphe.Ordinaire">
+      <attr name="coteSol">244.0</attr>
+      <attr name="xCarto">720867.125</attr>
+      <attr name="yCarto">982072.0625</attr>
+      <attr name="xSchema">720867.09582925</attr>
+      <attr name="ySchema">982072.8807194999</attr>
+      <attr name="actif">true</attr>
+      <rel name="profilTemperatureImposee" ref="Profil.11" />
+      <attr name="coteAbonneBas">244.0</attr>
+      <attr name="coteAbonneHaut">244.0</attr>
+      <attr name="cotePiezoDesiree">264.0</attr>
+    </node>
+    <node id="od_67" type="reseau.graphe.Ordinaire">
+      <attr name="coteSol">58.4</attr>
+      <attr name="xCarto">722744.125</attr>
+      <attr name="yCarto">982644.5625</attr>
+      <attr name="xSchema">722713.0</attr>
+      <attr name="ySchema">982596.625</attr>
+      <attr name="actif">true</attr>
+      <rel name="profilTemperatureImposee" ref="Profil.12" />
+      <attr name="coteAbonneBas">58.4</attr>
+      <attr name="coteAbonneHaut">58.4</attr>
+      <attr name="cotePiezoDesiree">78.4</attr>
+    </node>
+    <node id="od_20" type="reseau.graphe.Ordinaire">
+      <attr name="coteSol">25.4</attr>
+      <attr name="xCarto">722616.125</attr>
+      <attr name="yCarto">983424.625</attr>
+      <attr name="xSchema">722616.125</attr>
+      <attr name="ySchema">983424.625</attr>
+      <attr name="actif">true</attr>
+      <rel name="profilTemperatureImposee" ref="Profil.13" />
+      <attr name="coteAbonneBas">25.4</attr>
+      <attr name="coteAbonneHaut">25.4</attr>
+      <attr name="cotePiezoDesiree">45.4</attr>
+    </node>
+    <node id="Puits Maanas" type="reseau.graphe.Ressource">
+      <attr name="coteSol">101.3</attr>
+      <attr name="xCarto">722016.9375</attr>
+      <attr name="yCarto">982102.0625</attr>
+      <attr name="xSchema">722015.6875</attr>
+      <attr name="ySchema">982104.625</attr>
+      <attr name="actif">true</attr>
+      <attr name="chargeImposeeO">101.3</attr>
+      <rel name="profilChargeImposeeZ" ref="Profil.14" />
+      <rel name="profilTemperatureImposee" ref="Profil.15" />
+      <attr name="volumeMaximumJournalierAutorise">400.0</attr>
+      <attr name="debitMaximumAutorise">0.0</attr>
+      <attr name="anneeRealisation">0</attr>
+      <attr name="sousType">Type.forage</attr>
+    </node>
+    <node id="od_54" type="reseau.graphe.Ordinaire">
+      <attr name="coteSol">32.0</attr>
+      <attr name="xCarto">721723.75</attr>
+      <attr name="yCarto">985800.5</attr>
+      <attr name="xSchema">721723.75</attr>
+      <attr name="ySchema">985800.5</attr>
+      <attr name="actif">true</attr>
+      <rel name="profilTemperatureImposee" ref="Profil.16" />
+      <attr name="coteAbonneBas">32.0</attr>
+      <attr name="coteAbonneHaut">32.0</attr>
+      <attr name="cotePiezoDesiree">52.0</attr>
+    </node>
+    <node id="od_79" type="reseau.graphe.Ordinaire">
+      <attr name="coteSol">100.0</attr>
+      <attr name="xCarto">719366.3125</attr>
+      <attr name="yCarto">981634.8125</attr>
+      <attr name="xSchema">719366.3125</attr>
+      <attr name="ySchema">981634.8125</attr>
+      <attr name="actif">true</attr>
+      <attr name="coteAbonneBas">100.0</attr>
+      <attr name="coteAbonneHaut">100.0</attr>
+      <attr name="cotePiezoDesiree">120.0</attr>
+    </node>
+    <node id="od_81" type="reseau.graphe.Ordinaire">
+      <attr name="coteSol">100.0</attr>
+      <attr name="xCarto">722107.5</attr>
+      <attr name="yCarto">983875.0625</attr>
+      <attr name="xSchema">722107.5</attr>
+      <attr name="ySchema">983875.0625</attr>
+      <attr name="actif">true</attr>
+      <attr name="coteAbonneBas">100.0</attr>
+      <attr name="coteAbonneHaut">100.0</attr>
+      <attr name="cotePiezoDesiree">120.0</attr>
+    </node>
+    <node id="od_36" type="reseau.graphe.Ordinaire">
+      <attr name="coteSol">64.4</attr>
+      <attr name="xCarto">721366.9375</attr>
+      <attr name="yCarto">984983.1875</attr>
+      <attr name="xSchema">721366.9375</attr>
+      <attr name="ySchema">984983.1875</attr>
+      <attr name="actif">true</attr>
+      <rel name="profilTemperatureImposee" ref="Profil.17" />
+      <attr name="coteAbonneBas">64.4</attr>
+      <attr name="coteAbonneHaut">64.4</attr>
+      <attr name="cotePiezoDesiree">84.4</attr>
+    </node>
+    <node id="od_58" type="reseau.graphe.Ordinaire">
+      <attr name="coteSol">26.2</attr>
+      <attr name="xCarto">719634.0625</attr>
+      <attr name="yCarto">987572.0625</attr>
+      <attr name="xSchema">719634.125</attr>
+      <attr name="ySchema">987572.0625</attr>
+      <attr name="actif">true</attr>
+      <attr name="coteAbonneBas">26.2</attr>
+      <attr name="coteAbonneHaut">26.2</attr>
+      <attr name="cotePiezoDesiree">46.2</attr>
+    </node>
+    <edge id="33" from="od_10" to="od_21">
+      <attr name="actif">true</attr>
+      <attr name="nom">od_10-&gt;od_21</attr>
+      <attr name="longueur">1076.9784</attr>
+      <attr name="points">720964.3,982140.94,720985.75,982179.06,720953.56,982241.0,720945.25,982298.2,720977.4,982368.5,721069.1,982380.4,721087.0,982385.2,721226.4,982461.44,721349.1,982479.25,721401.5,982492.4,721468.25,982486.44,721525.44,982532.9</attr>
+      <attr name="diametreLocal">180.0</attr>
+      <attr name="hazenWilliamsLocal">136.0</attr>
+      <attr name="rugositeLocale">0.1</attr>
+    </edge>
+    <edge id="34" from="od_21" to="Puits Maanas">
+      <attr name="actif">true</attr>
+      <attr name="nom">od_21-&gt;od_17</attr>
+      <attr name="longueur">950.3029</attr>
+      <attr name="points">721663.6,982484.06,721720.8,982389.94,721725.56,982325.6,721708.9,982208.8,721697.0,982136.2,721656.44,982062.3,721727.94,982033.7,721793.5,982061.1,721853.06,982082.56,721947.2,982138.56,721993.6,982136.2</attr>
+      <attr name="diametreLocal">60.0</attr>
+      <attr name="hazenWilliamsLocal">136.0</attr>
+      <attr name="rugositeLocale">0.1</attr>
+    </edge>
+    <edge id="35" from="Puits Maanas" to="od_18">
+      <attr name="actif">true</attr>
+      <attr name="nom">od_17-&gt;od_18</attr>
+      <attr name="longueur">717.1569</attr>
+      <attr name="points">722138.94,982245.2,722230.1,982364.94,722273.0,982400.6,722334.94,982426.25,722535.7,982457.25</attr>
+      <attr name="diametreLocal">200.0</attr>
+      <attr name="hazenWilliamsLocal">136.0</attr>
+      <attr name="rugositeLocale">0.1</attr>
+    </edge>
+    <edge id="36" from="od_20" to="od_19">
+      <attr name="actif">true</attr>
+      <attr name="nom">od_19-&gt;od_20</attr>
+      <attr name="longueur">741.1557</attr>
+      <attr name="points">722648.9,983610.75,722716.75,983687.0,722766.8,983820.44,722783.5,983856.2,722820.44,983901.44,722882.4,983959.8,722913.4,983972.94,722951.5,984001.56</attr>
+      <attr name="diametreLocal">100.0</attr>
+      <attr name="hazenWilliamsLocal">136.0</attr>
+      <attr name="rugositeLocale">0.1</attr>
+    </edge>
+    <edge id="37" from="od_21" to="od_20">
+      <attr name="actif">true</attr>
+      <attr name="nom">od_21-&gt;od_20</attr>
+      <attr name="longueur">1428.0745</attr>
+      <attr name="points">721855.44,982706.56,722003.1,982751.8,722103.25,982754.2,722162.8,982761.3,722327.2,982887.6,722408.2,983004.4,722453.5,983052.0,722539.25,983240.25,722513.06,983271.25,722532.1,983287.94,722555.94,983290.3,722582.1,983333.2</attr>
+      <attr name="diametreLocal">200.0</attr>
+      <attr name="hazenWilliamsLocal">136.0</attr>
+      <attr name="rugositeLocale">0.1</attr>
+    </edge>
+    <edge id="38" from="od_19" to="od_29">
+      <attr name="actif">true</attr>
+      <attr name="nom">od_19-&gt;od_29</attr>
+      <attr name="longueur">125.86839</attr>
+      <attr name="diametreLocal">140.0</attr>
+      <attr name="hazenWilliamsLocal">136.0</attr>
+      <attr name="rugositeLocale">0.1</attr>
+    </edge>
+    <edge id="39" from="od_29" to="od_30">
+      <attr name="actif">true</attr>
+      <attr name="nom">od_29-&gt;od_30</attr>
+      <attr name="longueur">312.86987</attr>
+      <attr name="diametreLocal">80.0</attr>
+      <attr name="hazenWilliamsLocal">136.0</attr>
+      <attr name="rugositeLocale">0.1</attr>
+    </edge>
+    <edge id="40" from="od_30" to="od_33">
+      <attr name="actif">true</attr>
+      <attr name="nom">od_30-&gt;od_33</attr>
+      <attr name="longueur">529.2569</attr>
+      <attr name="points">722628.6,984479.25,722603.6,984536.44,722603.6,984612.7,722615.5,984692.5</attr>
+      <attr name="diametreLocal">60.0</attr>
+      <attr name="hazenWilliamsLocal">136.0</attr>
+      <attr name="rugositeLocale">0.1</attr>
+    </edge>
+    <edge id="41" from="od_33" to="od_34">
+      <attr name="actif">true</attr>
+      <attr name="nom">od_33-&gt;od_34</attr>
+      <attr name="longueur">224.11539</attr>
+      <attr name="points">722758.5,985009.44</attr>
+      <attr name="diametreLocal">100.0</attr>
+      <attr name="hazenWilliamsLocal">136.0</attr>
+      <attr name="rugositeLocale">0.1</attr>
+    </edge>
+    <edge id="42" from="Source Kibuntod" to="od_41">
+      <attr name="actif">true</attr>
+      <attr name="nom">Source Kibuntod-&gt;od_41</attr>
+      <attr name="longueur">553.4071</attr>
+      <attr name="points">722277.2,984724.1</attr>
+      <attr name="diametreLocal">200.0</attr>
+      <attr name="hazenWilliamsLocal">136.0</attr>
+      <attr name="rugositeLocale">0.1</attr>
+    </edge>
+    <edge id="43" from="Source Kibuntod" to="od_32">
+      <attr name="actif">true</attr>
+      <attr name="nom">od_31-&gt;od_32</attr>
+      <attr name="longueur">399.66934</attr>
+      <attr name="points">722021.0,984587.06,722032.94,984563.9,722023.4,984539.44,722034.75,984516.2,722018.06,984487.0,722038.9,984467.94,722052.56,984466.2,722059.75,984449.5,722070.44,984443.56,722087.75,984429.8,722019.8,984345.25,722023.4,984329.75</attr>
+      <attr name="diametreLocal">200.0</attr>
+      <attr name="hazenWilliamsLocal">136.0</attr>
+      <attr name="rugositeLocale">0.1</attr>
+    </edge>
+    <edge id="44" from="od_29" to="od_32">
+      <attr name="actif">true</attr>
+      <attr name="nom">od_29-&gt;od_32</attr>
+      <attr name="longueur">883.652</attr>
+      <attr name="points">722830.56,984151.06,722469.0,984214.8</attr>
+      <attr name="diametreLocal">100.0</attr>
+      <attr name="hazenWilliamsLocal">136.0</attr>
+      <attr name="rugositeLocale">0.1</attr>
+    </edge>
+    <edge id="45" from="od_41" to="od_35">
+      <attr name="actif">true</attr>
+      <attr name="nom">od_41-&gt;od_35</attr>
+      <attr name="longueur">443.39682</attr>
+      <attr name="points">722383.8,984934.4</attr>
+      <attr name="diametreLocal">100.0</attr>
+      <attr name="hazenWilliamsLocal">136.0</attr>
+      <attr name="rugositeLocale">0.1</attr>
+    </edge>
+    <edge id="46" from="od_35" to="od_36">
+      <attr name="actif">true</attr>
+      <attr name="nom">od_35-&gt;od_36</attr>
+      <attr name="longueur">986.91113</attr>
+      <attr name="points">722062.1,985191.7,722021.6,985171.44,721940.6,985167.9,721852.44,985148.8,721672.56,985074.94,721463.44,985004.06,721409.9,984990.94</attr>
+      <attr name="diametreLocal">200.0</attr>
+      <attr name="hazenWilliamsLocal">136.0</attr>
+      <attr name="rugositeLocale">0.1</attr>
+    </edge>
+    <edge id="47" from="od_32" to="od_36">
+      <attr name="actif">true</attr>
+      <attr name="nom">od_32-&gt;od_36</attr>
+      <attr name="longueur">1079.526</attr>
+      <attr name="points">721639.2,984404.2,721570.06,984442.3,721522.44,984494.75,721497.44,984553.1</attr>
+      <attr name="diametreLocal">200.0</attr>
+      <attr name="hazenWilliamsLocal">136.0</attr>
+      <attr name="rugositeLocale">0.1</attr>
+    </edge>
+    <edge id="48" from="od_34" to="od_52">
+      <attr name="actif">true</attr>
+      <attr name="nom">od_34-&gt;od_52</attr>
+      <attr name="longueur">823.10565</attr>
+      <attr name="points">722838.9,985266.75,722855.56,985325.1,722848.44,985378.75,722790.06,985705.2</attr>
+      <attr name="diametreLocal">100.0</attr>
+      <attr name="hazenWilliamsLocal">136.0</attr>
+      <attr name="rugositeLocale">0.1</attr>
+    </edge>
+    <edge id="49" from="od_52" to="od_51">
+      <attr name="actif">true</attr>
+      <attr name="nom">od_52-&gt;od_51</attr>
+      <attr name="longueur">190.18834</attr>
+      <attr name="diametreLocal">180.0</attr>
+      <attr name="hazenWilliamsLocal">136.0</attr>
+      <attr name="rugositeLocale">0.1</attr>
+    </edge>
+    <edge id="50" from="od_51" to="od_50">
+      <attr name="actif">true</attr>
+      <attr name="nom">od_51-&gt;od_50</attr>
+      <attr name="longueur">291.29868</attr>
+      <attr name="diametreLocal">100.0</attr>
+      <attr name="hazenWilliamsLocal">136.0</attr>
+      <attr name="rugositeLocale">0.1</attr>
+    </edge>
+    <edge id="51" from="od_51" to="od_34">
+      <attr name="actif">true</attr>
+      <attr name="nom">od_51-&gt;od_34</attr>
+      <attr name="longueur">780.28796</attr>
+      <attr name="diametreLocal">100.0</attr>
+      <attr name="hazenWilliamsLocal">136.0</attr>
+      <attr name="rugositeLocale">0.1</attr>
+    </edge>
+    <edge id="52" from="od_35" to="od_50">
+      <attr name="actif">true</attr>
+      <attr name="nom">od_35-&gt;od_50</attr>
+      <attr name="longueur">499.17957</attr>
+      <attr name="points">722256.3,985497.9</attr>
+      <attr name="diametreLocal">200.0</attr>
+      <attr name="hazenWilliamsLocal">136.0</attr>
+      <attr name="rugositeLocale">0.1</attr>
+    </edge>
+    <edge id="53" from="od_50" to="od_53">
+      <attr name="actif">true</attr>
+      <attr name="nom">od_50-&gt;od_53</attr>
+      <attr name="longueur">405.40097</attr>
+      <attr name="points">722125.25,985727.8,721953.7,985751.6</attr>
+      <attr name="diametreLocal">100.0</attr>
+      <attr name="hazenWilliamsLocal">136.0</attr>
+      <attr name="rugositeLocale">0.1</attr>
+    </edge>
+    <edge id="54" from="od_53" to="od_54">
+      <attr name="actif">true</attr>
+      <attr name="nom">od_53-&gt;od_54</attr>
+      <attr name="longueur">169.66853</attr>
+      <attr name="diametreLocal">100.0</attr>
+      <attr name="hazenWilliamsLocal">136.0</attr>
+      <attr name="rugositeLocale">0.1</attr>
+    </edge>
+    <edge id="55" from="od_54" to="od_68">
+      <attr name="actif">true</attr>
+      <attr name="nom">od_54-&gt;od_68</attr>
+      <attr name="longueur">640.14087</attr>
+      <attr name="points">721574.9,985794.56,721549.8,985788.56,721409.25,985721.9</attr>
+      <attr name="diametreLocal">200.0</attr>
+      <attr name="hazenWilliamsLocal">136.0</attr>
+      <attr name="rugositeLocale">0.1</attr>
+    </edge>
+    <edge id="56" from="od_36" to="od_68">
+      <attr name="actif">true</attr>
+      <attr name="nom">od_36-&gt;od_68</attr>
+      <attr name="longueur">699.61536</attr>
+      <attr name="points">721309.2,985177.44,721265.1,985320.4</attr>
+      <attr name="diametreLocal">180.0</attr>
+      <attr name="hazenWilliamsLocal">136.0</attr>
+      <attr name="rugositeLocale">0.1</attr>
+    </edge>
+    <edge id="57" from="od_55" to="od_51">
+      <attr name="actif">true</attr>
+      <attr name="nom">od_51-&gt;od_55</attr>
+      <attr name="longueur">1316.7495</attr>
+      <attr name="points">722481.5,986118.56</attr>
+      <attr name="diametreLocal">120.0</attr>
+      <attr name="hazenWilliamsLocal">136.0</attr>
+      <attr name="rugositeLocale">0.1</attr>
+    </edge>
+    <edge id="58" from="od_57" to="od_55">
+      <attr name="actif">true</attr>
+      <attr name="nom">od_55-&gt;od_57</attr>
+      <attr name="longueur">870.817</attr>
+      <attr name="points">721227.56,987028.75,721425.3,986932.25</attr>
+      <attr name="diametreLocal">180.0</attr>
+      <attr name="hazenWilliamsLocal">136.0</attr>
+      <attr name="rugositeLocale">0.1</attr>
+    </edge>
+    <edge id="59" from="Source Dagalas 2" to="od_9">
+      <attr name="actif">true</attr>
+      <attr name="nom">Source Dagalas 2-&gt;od_9</attr>
+      <attr name="longueur">1227.9476</attr>
+      <attr name="points">718613.44,980914.2,718677.8,980914.2,718765.94,980935.6,718816.0,980938.0,718901.75,980980.94,719128.1,981085.75,719190.06,981142.94,719297.3,981159.6,719335.44,981193.0</attr>
+      <attr name="diametreLocal">200.0</attr>
+      <attr name="hazenWilliamsLocal">136.0</attr>
+      <attr name="rugositeLocale">0.1</attr>
+    </edge>
+    <edge id="60" from="od_9" to="od_10">
+      <attr name="actif">true</attr>
+      <attr name="nom">od_9-&gt;od_10</attr>
+      <attr name="longueur">1669.0804</attr>
+      <attr name="points">719517.9,981301.0,719663.25,981343.25,719807.4,981443.3,719949.2,981579.75,719972.7,981618.75,720243.1,981792.1,720275.3,981827.9,720342.0,981862.4,720463.56,981900.5,720593.4,981961.3,720673.25,981968.44,720713.1,982001.8,720752.44,982017.25,720781.06,982036.94,720839.44,982042.3,720857.9,982052.44</attr>
+      <attr name="diametreLocal">160.0</attr>
+      <attr name="hazenWilliamsLocal">136.0</attr>
+      <attr name="rugositeLocale">0.1</attr>
+    </edge>
+    <edge id="61" from="Source Tag-anunand" to="od_72">
+      <attr name="actif">true</attr>
+      <attr name="nom">od_58-&gt;od_59 bis</attr>
+      <attr name="longueur">437.9319</attr>
+      <attr name="points">719505.5,987651.25,719548.4,987641.1,719581.1,987625.6</attr>
+      <attr name="diametreLocal">200.0</attr>
+      <attr name="hazenWilliamsLocal">136.0</attr>
+      <attr name="rugositeLocale">0.1</attr>
+    </edge>
+    <edge id="62" from="od_18" to="od_67">
+      <attr name="actif">true</attr>
+      <attr name="nom">od_18-&gt;od_67</attr>
+      <attr name="longueur">234.8954</attr>
+      <attr name="points">722696.44,982572.7</attr>
+      <attr name="diametreLocal">160.0</attr>
+      <attr name="hazenWilliamsLocal">136.0</attr>
+      <attr name="rugositeLocale">0.1</attr>
+    </edge>
+    <edge id="63" from="od_74" to="od_19">
+      <attr name="actif">true</attr>
+      <attr name="nom">od_19-&gt;od_74</attr>
+      <attr name="longueur">756.468</attr>
+      <attr name="diametreLocal">30.0</attr>
+      <attr name="hazenWilliamsLocal">136.0</attr>
+      <attr name="rugositeLocale">0.1</attr>
+    </edge>
+    <edge id="64" from="od_67" to="od_74">
+      <attr name="actif">true</attr>
+      <attr name="nom">od_74-&gt;od_67</attr>
+      <attr name="longueur">1063.9789</attr>
+      <attr name="points">722986.8,982845.7,723213.5,983072.44,723237.44,983173.2,723328.1,983306.7</attr>
+      <attr name="diametreLocal">120.0</attr>
+      <attr name="hazenWilliamsLocal">136.0</attr>
+      <attr name="rugositeLocale">0.1</attr>
+    </edge>
+    <edge id="65" from="od_9" to="od_79">
+      <attr name="actif">true</attr>
+      <attr name="nom">od_9-&gt;od_79</attr>
+      <attr name="longueur">374.6581</attr>
+      <attr name="diametreLocal">100.0</attr>
+      <attr name="hazenWilliamsLocal">136.0</attr>
+      <attr name="rugositeLocale">0.1</attr>
+    </edge>
+    <edge id="66" from="od_79" to="od_81">
+      <attr name="actif">true</attr>
+      <attr name="nom">od_81-&gt;od_79</attr>
+      <attr name="longueur">4031.902</attr>
+      <attr name="points">719400.56,981670.1,719456.5,981723.8,719505.7,981755.1,719530.3,981815.5,719580.6,981986.6,719646.56,982107.4,719683.5,982209.1,719692.44,982320.94,719696.9,982417.06,719738.25,982479.7,719789.7,982543.44,719875.94,982590.56,719966.8,982669.94,720021.3,982728.94,720067.7,982800.5,720173.94,982848.56,720405.4,982891.06,720623.44,982914.56,720784.44,982912.3,720937.06,982924.06,721033.25,982887.7,721138.4,982892.2,721347.75,982914.56,721382.94,982954.5,721423.2,982973.8,721508.2,983056.56,721573.06,983099.06,721617.75,983197.44,721628.94,983383.06,721658.0,983479.2,721861.5,983604.44,722024.75,983839.25</attr>
+      <attr name="diametreLocal">150.0</attr>
+      <attr name="hazenWilliamsLocal">136.0</attr>
+      <attr name="rugositeLocale">0.1</attr>
+    </edge>
+    <edge id="67" from="od_72" to="od_58">
+      <attr name="actif">true</attr>
+      <attr name="nom">od_72-&gt;od_58</attr>
+      <attr name="longueur">67.74752</attr>
+      <attr name="diametreLocal">200.0</attr>
+      <attr name="hazenWilliamsLocal">136.0</attr>
+      <attr name="rugositeLocale">0.1</attr>
+    </edge>
+    <edge id="68" from="od_58" to="od_57">
+      <attr name="actif">true</attr>
+      <attr name="nom">od_57-&gt;od_58</attr>
+      <attr name="longueur">1469.1459</attr>
+      <attr name="points">719777.7,987456.5,719809.9,987457.7,719838.44,987501.75,719876.56,987517.25,720245.9,987516.06,720303.06,987460.06,720500.9,987357.6,720670.0,987245.6</attr>
+      <attr name="diametreLocal">200.0</attr>
+      <attr name="hazenWilliamsLocal">136.0</attr>
+      <attr name="rugositeLocale">0.1</attr>
+    </edge>
+    <edge id="69" from="od_58" to="od_68">
+      <attr name="actif">true</attr>
+      <attr name="nom">od_68-&gt;od_58</attr>
+      <attr name="longueur">2455.628</attr>
+      <attr name="points">719907.56,987271.8,720234.0,986909.6,720684.3,986411.6,720738.5,986343.75,720836.2,986150.75</attr>
+      <attr name="diametreLocal">20.0</attr>
+      <attr name="hazenWilliamsLocal">136.0</attr>
+      <attr name="rugositeLocale">0.1</attr>
+    </edge>
+    <edge id="70" from="od_33" to="od_41">
+      <attr name="actif">true</attr>
+      <attr name="nom">od_33-&gt;od_41</attr>
+      <attr name="longueur">208.97978</attr>
+      <attr name="diametreLocal">100.0</attr>
+      <attr name="hazenWilliamsLocal">136.0</attr>
+      <attr name="rugositeLocale">0.1</attr>
+    </edge>
+    <edge id="71" from="Puits Portulin" to="od_58">
+      <attr name="actif">true</attr>
+      <attr name="nom">Puits Portulin-&gt;od_58</attr>
+      <attr name="longueur">320.27417</attr>
+      <attr name="points">719443.5471687748,987571.8197686486,719571.2033763581,987595.5617587382</attr>
+      <attr name="diametreLocal">200.0</attr>
+      <attr name="hazenWilliamsLocal">136.0</attr>
+      <attr name="rugositeLocale">0.1</attr>
+    </edge>
+    <edge id="72" from="od_81" to="od_32">
+      <attr name="actif">true</attr>
+      <attr name="nom">od_81-&gt;od_32</attr>
+      <attr name="longueur">764.3821</attr>
+      <attr name="points">722296.0268476604,984004.3276925705,722355.209779478,984084.1558331618,722352.4570849749,984166.7366682562,722304.2849311698,984232.8013363318</attr>
+      <attr name="diametreLocal">20.0</attr>
+      <attr name="hazenWilliamsLocal">136.0</attr>
+      <attr name="rugositeLocale">0.1</attr>
+    </edge>
+    <edge id="73" from="Source Kibuntod" to="od_36">
+      <attr name="actif">true</attr>
+      <attr name="nom">Source Kibuntod-&gt;od_36</attr>
+      <attr name="longueur">829.9848</attr>
+      <attr name="points">721904.7815136615,984814.2219583625,721797.0786811302,984949.2297343523,721611.2533714811,984999.2887973598</attr>
+      <attr name="diametreLocal">200.0</attr>
+      <attr name="hazenWilliamsLocal">136.0</attr>
+      <attr name="rugositeLocale">0.1</attr>
+    </edge>
+  </reseau>
+  <ehts>
+    <equipment id="Eht.0" type="reseau.ehts.ReducteurDePression">
+      <rel name="troncon" ref="33" />
+      <attr name="nom">RP_103</attr>
+      <attr name="position">0.5</attr>
+      <attr name="coteSol">0.0</attr>
+      <attr name="actif">true</attr>
+      <attr name="reductionDePression">120.0</attr>
+    </equipment>
+    <equipment id="Eht.1" type="reseau.ehts.Clapet">
+      <rel name="troncon" ref="34" />
+      <attr name="nom">CL_101</attr>
+      <attr name="position">0.5</attr>
+      <attr name="coteSol">0.0</attr>
+      <attr name="actif">true</attr>
+      <attr name="sens">false</attr>
+      <attr name="coefficientPerteDeChargeSinguliere">0.0</attr>
+    </equipment>
+    <equipment id="Eht.2" type="reseau.ehts.Clapet">
+      <rel name="troncon" ref="36" />
+      <attr name="nom">CL_80</attr>
+      <attr name="position">0.5</attr>
+      <attr name="coteSol">0.0</attr>
+      <attr name="actif">true</attr>
+      <attr name="sens">true</attr>
+      <attr name="coefficientPerteDeChargeSinguliere">0.0</attr>
+    </equipment>
+    <equipment id="Eht.3" type="reseau.ehts.PompesCourbes">
+      <rel name="troncon" ref="36" />
+      <attr name="nom">PC_115</attr>
+      <attr name="position">0.5</attr>
+      <attr name="coteSol">0.0</attr>
+      <attr name="actif">true</attr>
+      <attr name="byPass">false</attr>
+      <group name="pompes">
+        <equipment id="reseau.ehts.PompeVitesse.0" type="reseau.ehts.PompeVitesseFixe">
+          <attr name="EtatDeMarcheOpointe">true</attr>
+          <rel name="profilCourbeCaracteristique" ref="Profil.18" />
+        </equipment>
+      </group>
+    </equipment>
+    <equipment id="Eht.4" type="reseau.ehts.ReducteurDePression">
+      <rel name="troncon" ref="37" />
+      <attr name="nom">RP_111</attr>
+      <attr name="position">0.5</attr>
+      <attr name="coteSol">0.0</attr>
+      <attr name="actif">true</attr>
+      <attr name="reductionDePression">100.0</attr>
+    </equipment>
+    <equipment id="Eht.5" type="reseau.ehts.Clapet">
+      <rel name="troncon" ref="40" />
+      <attr name="nom">CL_99</attr>
+      <attr name="position">0.5</attr>
+      <attr name="coteSol">0.0</attr>
+      <attr name="actif">true</attr>
+      <attr name="sens">true</attr>
+      <attr name="coefficientPerteDeChargeSinguliere">0.0</attr>
+    </equipment>
+    <equipment id="Eht.6" type="reseau.ehts.PompesCourbes">
+      <rel name="troncon" ref="43" />
+      <attr name="nom">PC_102</attr>
+      <attr name="position">0.5</attr>
+      <attr name="coteSol">0.0</attr>
+      <attr name="actif">true</attr>
+      <attr name="byPass">false</attr>
+      <group name="pompes">
+        <equipment id="reseau.ehts.PompeVitesse.1" type="reseau.ehts.PompeVitesseFixe">
+          <attr name="EtatDeMarcheOpointe">true</attr>
+          <rel name="profilCourbeCaracteristique" ref="Profil.19" />
+        </equipment>
+      </group>
+    </equipment>
+    <equipment id="Eht.7" type="reseau.ehts.Clapet">
+      <rel name="troncon" ref="47" />
+      <attr name="nom">CL_100</attr>
+      <attr name="position">0.5</attr>
+      <attr name="coteSol">0.0</attr>
+      <attr name="actif">true</attr>
+      <attr name="sens">false</attr>
+      <attr name="coefficientPerteDeChargeSinguliere">0.0</attr>
+    </equipment>
+    <equipment id="Eht.8" type="reseau.ehts.Clapet">
+      <rel name="troncon" ref="50" />
+      <attr name="nom">CL_95</attr>
+      <attr name="position">0.5</attr>
+      <attr name="coteSol">0.0</attr>
+      <attr name="actif">true</attr>
+      <attr name="sens">true</attr>
+      <attr name="coefficientPerteDeChargeSinguliere">0.0</attr>
+    </equipment>
+    <equipment id="Eht.9" type="reseau.ehts.Clapet">
+      <rel name="troncon" ref="53" />
+      <attr name="nom">CL_93</attr>
+      <attr name="position">0.5</attr>
+      <attr name="coteSol">0.0</attr>
+      <attr name="actif">true</attr>
+      <attr name="sens">false</attr>
+      <attr name="coefficientPerteDeChargeSinguliere">0.0</attr>
+    </equipment>
+    <equipment id="Eht.10" type="reseau.ehts.Clapet">
+      <rel name="troncon" ref="57" />
+      <attr name="nom">CL_92</attr>
+      <attr name="position">0.5</attr>
+      <attr name="coteSol">0.0</attr>
+      <attr name="actif">true</attr>
+      <attr name="sens">true</attr>
+      <attr name="coefficientPerteDeChargeSinguliere">0.0</attr>
+    </equipment>
+    <equipment id="Eht.11" type="reseau.ehts.LimiteurDeDebit">
+      <rel name="troncon" ref="60" />
+      <attr name="nom">LD_104</attr>
+      <attr name="position">0.5</attr>
+      <attr name="coteSol">0.0</attr>
+      <attr name="actif">true</attr>
+      <rel name="profilDebit" ref="Profil.20" />
+      <attr name="DebitLimiteOpointe">60.0</attr>
+    </equipment>
+    <equipment id="Eht.12" type="reseau.ehts.ReducteurDePression">
+      <rel name="troncon" ref="60" />
+      <attr name="nom">RP_110</attr>
+      <attr name="position">0.5</attr>
+      <attr name="coteSol">0.0</attr>
+      <attr name="actif">true</attr>
+      <attr name="reductionDePression">250.0</attr>
+    </equipment>
+    <equipment id="Eht.13" type="reseau.ehts.PompesCourbes">
+      <rel name="troncon" ref="61" />
+      <attr name="nom">PC_82</attr>
+      <attr name="position">0.5</attr>
+      <attr name="coteSol">0.0</attr>
+      <attr name="actif">true</attr>
+      <attr name="byPass">false</attr>
+      <group name="pompes">
+        <equipment id="reseau.ehts.PompeVitesse.2" type="reseau.ehts.PompeVitesseFixe">
+          <attr name="EtatDeMarcheOpointe">true</attr>
+          <rel name="profilCourbeCaracteristique" ref="Profil.21" />
+        </equipment>
+      </group>
+    </equipment>
+    <equipment id="Eht.14" type="reseau.ehts.Clapet">
+      <rel name="troncon" ref="63" />
+      <attr name="nom">CL_86</attr>
+      <attr name="position">0.5</attr>
+      <attr name="coteSol">0.0</attr>
+      <attr name="actif">true</attr>
+      <attr name="sens">true</attr>
+      <attr name="coefficientPerteDeChargeSinguliere">0.0</attr>
+    </equipment>
+    <equipment id="Eht.15" type="reseau.ehts.PompesCourbes">
+      <rel name="troncon" ref="64" />
+      <attr name="nom">PC_84</attr>
+      <attr name="position">0.5</attr>
+      <attr name="coteSol">0.0</attr>
+      <attr name="actif">true</attr>
+      <attr name="byPass">false</attr>
+      <group name="pompes">
+        <equipment id="reseau.ehts.PompeVitesse.3" type="reseau.ehts.PompeVitesseFixe">
+          <attr name="EtatDeMarcheOpointe">true</attr>
+          <rel name="profilCourbeCaracteristique" ref="Profil.22" />
+        </equipment>
+      </group>
+    </equipment>
+    <equipment id="Eht.16" type="reseau.ehts.ReducteurDePression">
+      <rel name="troncon" ref="65" />
+      <attr name="nom">RP_89</attr>
+      <attr name="position">0.5</attr>
+      <attr name="coteSol">0.0</attr>
+      <attr name="actif">true</attr>
+      <attr name="reductionDePression">440.0</attr>
+    </equipment>
+    <equipment id="Eht.17" type="reseau.ehts.Clapet">
+      <rel name="troncon" ref="69" />
+      <attr name="nom">CL_91</attr>
+      <attr name="position">0.5</attr>
+      <attr name="coteSol">0.0</attr>
+      <attr name="actif">true</attr>
+      <attr name="sens">false</attr>
+      <attr name="coefficientPerteDeChargeSinguliere">0.0</attr>
+    </equipment>
+    <equipment id="Eht.18" type="reseau.ehts.PompesCourbes">
+      <rel name="troncon" ref="71" />
+      <attr name="nom">PC_86</attr>
+      <attr name="position">0.5</attr>
+      <attr name="coteSol">0.0</attr>
+      <attr name="actif">true</attr>
+      <attr name="byPass">false</attr>
+      <group name="pompes">
+        <equipment id="reseau.ehts.PompeVitesse.4" type="reseau.ehts.PompeVitesseFixe">
+          <attr name="EtatDeMarcheOpointe">true</attr>
+          <rel name="profilCourbeCaracteristique" ref="Profil.23" />
+        </equipment>
+      </group>
+    </equipment>
+    <equipment id="Eht.19" type="reseau.ehts.PompesCourbes">
+      <rel name="troncon" ref="73" />
+      <attr name="nom">PC_98</attr>
+      <attr name="position">0.5</attr>
+      <attr name="coteSol">0.0</attr>
+      <attr name="actif">true</attr>
+      <attr name="byPass">false</attr>
+      <group name="pompes">
+        <equipment id="reseau.ehts.PompeVitesse.5" type="reseau.ehts.PompeVitesseFixe">
+          <attr name="EtatDeMarcheOpointe">true</attr>
+          <rel name="profilCourbeCaracteristique" ref="Profil.24" />
+        </equipment>
+      </group>
+    </equipment>
+  </ehts>
+  <ehns />
+  <models>
+    <equipment id="ModeleConso.0" type="Domestique">
+      <rel name="profil" ref="Profil.0" />
+      <attr name="nom">Commerce</attr>
+      <attr name="pressionMin">20.0</attr>
+      <attr name="failurePressure">0.0</attr>
+      <attr name="probOuv">0.03</attr>
+      <attr name="debSpec">0.5</attr>
+      <attr name="coefMultOpointe">1.0</attr>
+      <attr name="volumeProfil">10000.0</attr>
+      <attr name="coefMultZomayet">1.0</attr>
+      <attr name="profReproductible">true</attr>
+    </equipment>
+    <equipment id="ModeleConso.1" type="Domestique">
+      <rel name="profil" ref="Profil.1" />
+      <attr name="nom">Commerce_2</attr>
+      <attr name="pressionMin">20.0</attr>
+      <attr name="failurePressure">0.0</attr>
+      <attr name="probOuv">0.03</attr>
+      <attr name="debSpec">0.5</attr>
+      <attr name="coefMultOpointe">1.0</attr>
+      <attr name="volumeProfil">20000.0</attr>
+      <attr name="coefMultZomayet">1.0</attr>
+      <attr name="profReproductible">true</attr>
+    </equipment>
+    <equipment id="ModeleConso.2" type="Domestique">
+      <rel name="profil" ref="Profil.2" />
+      <attr name="nom">Habitant</attr>
+      <attr name="pressionMin">20.0</attr>
+      <attr name="failurePressure">0.0</attr>
+      <attr name="probOuv">0.03</attr>
+      <attr name="debSpec">0.5</attr>
+      <attr name="coefMultOpointe">1.0</attr>
+      <attr name="volumeProfil">100.0</attr>
+      <attr name="coefMultZomayet">1.0</attr>
+      <attr name="profReproductible">true</attr>
+    </equipment>
+  </models>
+  <profiles>
+    <equipment id="Profil.0" type="reseau.profils.ProfilModulation">
+      <attr name="nom">dom(défaut)</attr>
+      <attr name="typeCourbe">STEP</attr>
+      <data>
+        <row x="0.0" y="0.25" />
+        <row x="6.0" y="0.8" />
+        <row x="8.0" y="1.0" />
+        <row x="10.0" y="2.0" />
+        <row x="14.0" y="0.8" />
+        <row x="18.0" y="2.0" />
+        <row x="20.0" y="1.0" />
+        <row x="22.0" y="0.85" />
+        <row x="24.0" y="0.25" />
+      </data>
+    </equipment>
+    <equipment id="Profil.1" type="reseau.profils.ProfilModulation">
+      <attr name="nom">dom(défaut)</attr>
+      <attr name="typeCourbe">STEP</attr>
+      <data>
+        <row x="0.0" y="0.25" />
+        <row x="6.0" y="0.8" />
+        <row x="8.0" y="1.0" />
+        <row x="10.0" y="2.0" />
+        <row x="14.0" y="0.8" />
+        <row x="18.0" y="2.0" />
+        <row x="20.0" y="1.0" />
+        <row x="22.0" y="0.85" />
+        <row x="24.0" y="0.25" />
+      </data>
+    </equipment>
+    <equipment id="Profil.2" type="reseau.profils.ProfilModulation">
+      <attr name="nom">dom(défaut)</attr>
+      <attr name="typeCourbe">STEP</attr>
+      <data>
+        <row x="0.0" y="0.15" />
+        <row x="6.0" y="1.0" />
+        <row x="7.0" y="3.5" />
+        <row x="11.0" y="0.4" />
+        <row x="16.0" y="2.0" />
+        <row x="18.0" y="0.5" />
+        <row x="22.0" y="0.15" />
+        <row x="24.0" y="0.15" />
+      </data>
+    </equipment>
+    <equipment id="Profil.3" type="reseau.profils.ProfilNiveau">
+      <attr name="nom">od_59 Zomayet</attr>
+      <attr name="typeCourbe">STEP</attr>
+      <data>
+        <row x="0.0" y="18.0" />
+        <row x="24.0" y="18.0" />
+      </data>
+    </equipment>
+    <equipment id="Profil.4" type="reseau.profils.ProfilTemperature">
+      <attr name="nom">a</attr>
+      <attr name="typeCourbe">STEP</attr>
+      <data>
+        <row x="0.0" y="1.0" />
+        <row x="24.0" y="1.0" />
+      </data>
+    </equipment>
+    <equipment id="Profil.5" type="reseau.profils.ProfilNiveau">
+      <attr name="nom">od_77 Zomayet</attr>
+      <attr name="typeCourbe">STEP</attr>
+      <data>
+        <row x="0.0" y="642.9" />
+        <row x="24.0" y="642.9" />
+      </data>
+    </equipment>
+    <equipment id="Profil.6" type="reseau.profils.ProfilTemperature">
+      <attr name="nom">a</attr>
+      <attr name="typeCourbe">STEP</attr>
+      <data>
+        <row x="0.0" y="1.0" />
+        <row x="24.0" y="1.0" />
+      </data>
+    </equipment>
+    <equipment id="Profil.7" type="reseau.profils.ProfilNiveau">
+      <attr name="nom">od_60</attr>
+      <attr name="typeCourbe">STEP</attr>
+      <data>
+        <row x="0.0" y="41.3" />
+        <row x="24.0" y="41.3" />
+      </data>
+    </equipment>
+    <equipment id="Profil.8" type="reseau.profils.ProfilTemperature">
+      <attr name="nom">température imposée en rv70</attr>
+      <attr name="typeCourbe">STEP</attr>
+      <data>
+        <row x="0.0" y="0.0" />
+        <row x="24.0" y="0.0" />
+      </data>
+    </equipment>
+    <equipment id="Profil.9" type="reseau.profils.ProfilNiveau">
+      <attr name="nom">od_31</attr>
+      <attr name="typeCourbe">STEP</attr>
+      <data>
+        <row x="0.0" y="15.0" />
+        <row x="24.0" y="15.0" />
+      </data>
+    </equipment>
+    <equipment id="Profil.10" type="reseau.profils.ProfilTemperature">
+      <attr name="nom">température imposée en rv67</attr>
+      <attr name="typeCourbe">STEP</attr>
+      <data>
+        <row x="0.0" y="0.0" />
+        <row x="24.0" y="0.0" />
+      </data>
+    </equipment>
+    <equipment id="Profil.11" type="reseau.profils.ProfilTemperature">
+      <attr name="nom">température imposée en rv65</attr>
+      <attr name="typeCourbe">STEP</attr>
+      <data>
+        <row x="0.0" y="0.0" />
+        <row x="24.0" y="0.0" />
+      </data>
+    </equipment>
+    <equipment id="Profil.12" type="reseau.profils.ProfilTemperature">
+      <attr name="nom">température imposée en rv71</attr>
+      <attr name="typeCourbe">STEP</attr>
+      <data>
+        <row x="0.0" y="0.0" />
+        <row x="24.0" y="0.0" />
+      </data>
+    </equipment>
+    <equipment id="Profil.13" type="reseau.profils.ProfilTemperature">
+      <attr name="nom">température imposée en rv66</attr>
+      <attr name="typeCourbe">STEP</attr>
+      <data>
+        <row x="0.0" y="0.0" />
+        <row x="24.0" y="0.0" />
+      </data>
+    </equipment>
+    <equipment id="Profil.14" type="reseau.profils.ProfilNiveau">
+      <attr name="nom">od_17 Zomayet</attr>
+      <attr name="typeCourbe">STEP</attr>
+      <data>
+        <row x="0.0" y="99.3" />
+        <row x="24.0" y="99.3" />
+      </data>
+    </equipment>
+    <equipment id="Profil.15" type="reseau.profils.ProfilTemperature">
+      <attr name="nom">température imposée en rv77</attr>
+      <attr name="typeCourbe">STEP</attr>
+      <data>
+        <row x="0.0" y="0.0" />
+        <row x="24.0" y="0.0" />
+      </data>
+    </equipment>
+    <equipment id="Profil.16" type="reseau.profils.ProfilTemperature">
+      <attr name="nom">température imposée en rv69</attr>
+      <attr name="typeCourbe">STEP</attr>
+      <data>
+        <row x="0.0" y="0.0" />
+        <row x="24.0" y="0.0" />
+      </data>
+    </equipment>
+    <equipment id="Profil.17" type="reseau.profils.ProfilTemperature">
+      <attr name="nom">température imposée en rv68</attr>
+      <attr name="typeCourbe">STEP</attr>
+      <data>
+        <row x="0.0" y="0.0" />
+        <row x="24.0" y="0.0" />
+      </data>
+    </equipment>
+    <equipment id="Profil.18" type="reseau.profils.ProfilCourbeCaracteristique">
+      <attr name="nom" />
+      <attr name="typeCourbe">PARABOLIC</attr>
+      <data>
+        <row x="0.0" y="130.0" />
+        <row x="10.0" y="120.0" />
+        <row x="20.0" y="90.0" />
+      </data>
+    </equipment>
+    <equipment id="Profil.19" type="reseau.profils.ProfilCourbeCaracteristique">
+      <attr name="nom" />
+      <attr name="typeCourbe">PARABOLIC</attr>
+      <data>
+        <row x="0.0" y="100.0" />
+        <row x="20.0" y="90.0" />
+        <row x="40.0" y="60.0" />
+      </data>
+    </equipment>
+    <equipment id="Profil.20" type="reseau.profils.ProfilDebit">
+      <attr name="nom">débit de base</attr>
+      <attr name="typeCourbe">STEP</attr>
+      <data>
+        <row x="0.0" y="1.0" />
+        <row x="24.0" y="1.0" />
+      </data>
+    </equipment>
+    <equipment id="Profil.21" type="reseau.profils.ProfilCourbeCaracteristique">
+      <attr name="nom" />
+      <attr name="typeCourbe">PARABOLIC</attr>
+      <data>
+        <row x="0.0" y="90.0" />
+        <row x="20.0" y="80.0" />
+        <row x="40.0" y="60.0" />
+      </data>
+    </equipment>
+    <equipment id="Profil.22" type="reseau.profils.ProfilCourbeCaracteristique">
+      <attr name="nom" />
+      <attr name="typeCourbe">PARABOLIC</attr>
+      <data>
+        <row x="0.0" y="50.0" />
+        <row x="10.0" y="45.0" />
+        <row x="20.0" y="30.0" />
+      </data>
+    </equipment>
+    <equipment id="Profil.23" type="reseau.profils.ProfilCourbeCaracteristique">
+      <attr name="nom" />
+      <attr name="typeCourbe">PARABOLIC</attr>
+      <data>
+        <row x="0.0" y="70.0" />
+        <row x="20.0" y="60.0" />
+        <row x="40.0" y="45.0" />
+      </data>
+    </equipment>
+    <equipment id="Profil.24" type="reseau.profils.ProfilCourbeCaracteristique">
+      <attr name="nom" />
+      <attr name="typeCourbe">PARABOLIC</attr>
+      <data>
+        <row x="0.0" y="300.0" />
+        <row x="40.0" y="280.0" />
+        <row x="80.0" y="240.0" />
+      </data>
+    </equipment>
+  </profiles>
+  <demands>
+    <equipment id="Consommateur.0" type="reseau.besoinsEtFuites.Consommateur">
+      <rel name="noeud" ref="od_9" />
+      <rel name="modele" ref="ModeleConso.2" />
+      <attr name="valeur">310.0</attr>
+    </equipment>
+    <equipment id="Consommateur.1" type="reseau.besoinsEtFuites.Consommateur">
+      <rel name="noeud" ref="od_18" />
+      <rel name="modele" ref="ModeleConso.2" />
+      <attr name="valeur">320.0</attr>
+    </equipment>
+    <equipment id="Consommateur.2" type="reseau.besoinsEtFuites.Consommateur">
+      <rel name="noeud" ref="od_19" />
+      <rel name="modele" ref="ModeleConso.0" />
+      <attr name="valeur">4.0</attr>
+    </equipment>
+    <equipment id="Consommateur.3" type="reseau.besoinsEtFuites.Consommateur">
+      <rel name="noeud" ref="od_19" />
+      <rel name="modele" ref="ModeleConso.2" />
+      <attr name="valeur">340.0</attr>
+    </equipment>
+    <equipment id="Consommateur.4" type="reseau.besoinsEtFuites.Consommateur">
+      <rel name="noeud" ref="od_21" />
+      <rel name="modele" ref="ModeleConso.2" />
+      <attr name="valeur">320.0</attr>
+    </equipment>
+    <equipment id="Consommateur.5" type="reseau.besoinsEtFuites.Consommateur">
+      <rel name="noeud" ref="od_29" />
+      <rel name="modele" ref="ModeleConso.0" />
+      <attr name="valeur">1.0</attr>
+    </equipment>
+    <equipment id="Consommateur.6" type="reseau.besoinsEtFuites.Consommateur">
+      <rel name="noeud" ref="od_29" />
+      <rel name="modele" ref="ModeleConso.2" />
+      <attr name="valeur">340.0</attr>
+    </equipment>
+    <equipment id="Consommateur.7" type="reseau.besoinsEtFuites.Consommateur">
+      <rel name="noeud" ref="od_30" />
+      <rel name="modele" ref="ModeleConso.1" />
+      <attr name="valeur">2.0</attr>
+    </equipment>
+    <equipment id="Consommateur.8" type="reseau.besoinsEtFuites.Consommateur">
+      <rel name="noeud" ref="od_30" />
+      <rel name="modele" ref="ModeleConso.2" />
+      <attr name="valeur">400.0</attr>
+    </equipment>
+    <equipment id="Consommateur.9" type="reseau.besoinsEtFuites.Consommateur">
+      <rel name="noeud" ref="od_32" />
+      <rel name="modele" ref="ModeleConso.0" />
+      <attr name="valeur">1.0</attr>
+    </equipment>
+    <equipment id="Consommateur.10" type="reseau.besoinsEtFuites.Consommateur">
+      <rel name="noeud" ref="od_32" />
+      <rel name="modele" ref="ModeleConso.2" />
+      <attr name="valeur">500.0</attr>
+    </equipment>
+    <equipment id="Consommateur.11" type="reseau.besoinsEtFuites.Consommateur">
+      <rel name="noeud" ref="od_33" />
+      <rel name="modele" ref="ModeleConso.1" />
+      <attr name="valeur">3.0</attr>
+    </equipment>
+    <equipment id="Consommateur.12" type="reseau.besoinsEtFuites.Consommateur">
+      <rel name="noeud" ref="od_33" />
+      <rel name="modele" ref="ModeleConso.2" />
+      <attr name="valeur">700.0</attr>
+    </equipment>
+    <equipment id="Consommateur.13" type="reseau.besoinsEtFuites.Consommateur">
+      <rel name="noeud" ref="od_34" />
+      <rel name="modele" ref="ModeleConso.1" />
+      <attr name="valeur">7.0</attr>
+    </equipment>
+    <equipment id="Consommateur.14" type="reseau.besoinsEtFuites.Consommateur">
+      <rel name="noeud" ref="od_34" />
+      <rel name="modele" ref="ModeleConso.2" />
+      <attr name="valeur">1000.0</attr>
+    </equipment>
+    <equipment id="Consommateur.15" type="reseau.besoinsEtFuites.Consommateur">
+      <rel name="noeud" ref="od_35" />
+      <rel name="modele" ref="ModeleConso.1" />
+      <attr name="valeur">6.0</attr>
+    </equipment>
+    <equipment id="Consommateur.16" type="reseau.besoinsEtFuites.Consommateur">
+      <rel name="noeud" ref="od_35" />
+      <rel name="modele" ref="ModeleConso.2" />
+      <attr name="valeur">860.0</attr>
+    </equipment>
+    <equipment id="Consommateur.17" type="reseau.besoinsEtFuites.Consommateur">
+      <rel name="noeud" ref="od_41" />
+      <rel name="modele" ref="ModeleConso.2" />
+      <attr name="valeur">900.0</attr>
+    </equipment>
+    <equipment id="Consommateur.18" type="reseau.besoinsEtFuites.Consommateur">
+      <rel name="noeud" ref="od_50" />
+      <rel name="modele" ref="ModeleConso.1" />
+      <attr name="valeur">6.0</attr>
+    </equipment>
+    <equipment id="Consommateur.19" type="reseau.besoinsEtFuites.Consommateur">
+      <rel name="noeud" ref="od_50" />
+      <rel name="modele" ref="ModeleConso.2" />
+      <attr name="valeur">1250.0</attr>
+    </equipment>
+    <equipment id="Consommateur.20" type="reseau.besoinsEtFuites.Consommateur">
+      <rel name="noeud" ref="od_51" />
+      <rel name="modele" ref="ModeleConso.1" />
+      <attr name="valeur">8.0</attr>
+    </equipment>
+    <equipment id="Consommateur.21" type="reseau.besoinsEtFuites.Consommateur">
+      <rel name="noeud" ref="od_51" />
+      <rel name="modele" ref="ModeleConso.2" />
+      <attr name="valeur">1250.0</attr>
+    </equipment>
+    <equipment id="Consommateur.22" type="reseau.besoinsEtFuites.Consommateur">
+      <rel name="noeud" ref="od_52" />
+      <rel name="modele" ref="ModeleConso.1" />
+      <attr name="valeur">5.0</attr>
+    </equipment>
+    <equipment id="Consommateur.23" type="reseau.besoinsEtFuites.Consommateur">
+      <rel name="noeud" ref="od_52" />
+      <rel name="modele" ref="ModeleConso.2" />
+      <attr name="valeur">1250.0</attr>
+    </equipment>
+    <equipment id="Consommateur.24" type="reseau.besoinsEtFuites.Consommateur">
+      <rel name="noeud" ref="od_53" />
+      <rel name="modele" ref="ModeleConso.1" />
+      <attr name="valeur">2.0</attr>
+    </equipment>
+    <equipment id="Consommateur.25" type="reseau.besoinsEtFuites.Consommateur">
+      <rel name="noeud" ref="od_53" />
+      <rel name="modele" ref="ModeleConso.2" />
+      <attr name="valeur">1100.0</attr>
+    </equipment>
+    <equipment id="Consommateur.26" type="reseau.besoinsEtFuites.Consommateur">
+      <rel name="noeud" ref="od_55" />
+      <rel name="modele" ref="ModeleConso.2" />
+      <attr name="valeur">950.0</attr>
+    </equipment>
+    <equipment id="Consommateur.27" type="reseau.besoinsEtFuites.Consommateur">
+      <rel name="noeud" ref="od_55" />
+      <rel name="modele" ref="ModeleConso.0" />
+      <attr name="valeur">3.0</attr>
+    </equipment>
+    <equipment id="Consommateur.28" type="reseau.besoinsEtFuites.Consommateur">
+      <rel name="noeud" ref="od_57" />
+      <rel name="modele" ref="ModeleConso.2" />
+      <attr name="valeur">140.0</attr>
+    </equipment>
+    <equipment id="Consommateur.29" type="reseau.besoinsEtFuites.Consommateur">
+      <rel name="noeud" ref="od_68" />
+      <rel name="modele" ref="ModeleConso.0" />
+      <attr name="valeur">2.0</attr>
+    </equipment>
+    <equipment id="Consommateur.30" type="reseau.besoinsEtFuites.Consommateur">
+      <rel name="noeud" ref="od_68" />
+      <rel name="modele" ref="ModeleConso.1" />
+      <attr name="valeur">1.0</attr>
+    </equipment>
+    <equipment id="Consommateur.31" type="reseau.besoinsEtFuites.Consommateur">
+      <rel name="noeud" ref="od_68" />
+      <rel name="modele" ref="ModeleConso.2" />
+      <attr name="valeur">840.0</attr>
+    </equipment>
+    <equipment id="Consommateur.32" type="reseau.besoinsEtFuites.Consommateur">
+      <rel name="noeud" ref="od_72" />
+      <rel name="modele" ref="ModeleConso.2" />
+      <attr name="valeur">500.0</attr>
+    </equipment>
+    <equipment id="Consommateur.33" type="reseau.besoinsEtFuites.Consommateur">
+      <rel name="noeud" ref="od_74" />
+      <rel name="modele" ref="ModeleConso.0" />
+      <attr name="valeur">2.0</attr>
+    </equipment>
+    <equipment id="Consommateur.34" type="reseau.besoinsEtFuites.Consommateur">
+      <rel name="noeud" ref="od_74" />
+      <rel name="modele" ref="ModeleConso.2" />
+      <attr name="valeur">360.0</attr>
+    </equipment>
+    <equipment id="Consommateur.35" type="reseau.besoinsEtFuites.Consommateur">
+      <rel name="noeud" ref="od_10" />
+      <rel name="modele" ref="ModeleConso.2" />
+      <attr name="valeur">320.0</attr>
+    </equipment>
+    <equipment id="Consommateur.36" type="reseau.besoinsEtFuites.Consommateur">
+      <rel name="noeud" ref="od_67" />
+      <rel name="modele" ref="ModeleConso.2" />
+      <attr name="valeur">320.0</attr>
+    </equipment>
+    <equipment id="Consommateur.37" type="reseau.besoinsEtFuites.Consommateur">
+      <rel name="noeud" ref="od_20" />
+      <rel name="modele" ref="ModeleConso.0" />
+      <attr name="valeur">1.0</attr>
+    </equipment>
+    <equipment id="Consommateur.38" type="reseau.besoinsEtFuites.Consommateur">
+      <rel name="noeud" ref="od_20" />
+      <rel name="modele" ref="ModeleConso.2" />
+      <attr name="valeur">350.0</attr>
+    </equipment>
+    <equipment id="Consommateur.39" type="reseau.besoinsEtFuites.Consommateur">
+      <rel name="noeud" ref="od_54" />
+      <rel name="modele" ref="ModeleConso.1" />
+      <attr name="valeur">3.0</attr>
+    </equipment>
+    <equipment id="Consommateur.40" type="reseau.besoinsEtFuites.Consommateur">
+      <rel name="noeud" ref="od_54" />
+      <rel name="modele" ref="ModeleConso.2" />
+      <attr name="valeur">1000.0</attr>
+    </equipment>
+    <equipment id="Consommateur.41" type="reseau.besoinsEtFuites.Consommateur">
+      <rel name="noeud" ref="od_79" />
+      <rel name="modele" ref="ModeleConso.2" />
+      <attr name="valeur">400.0</attr>
+    </equipment>
+    <equipment id="Consommateur.42" type="reseau.besoinsEtFuites.Consommateur">
+      <rel name="noeud" ref="od_81" />
+      <rel name="modele" ref="ModeleConso.2" />
+      <attr name="valeur">500.0</attr>
+    </equipment>
+    <equipment id="Consommateur.43" type="reseau.besoinsEtFuites.Consommateur">
+      <rel name="noeud" ref="od_36" />
+      <rel name="modele" ref="ModeleConso.0" />
+      <attr name="valeur">3.0</attr>
+    </equipment>
+    <equipment id="Consommateur.44" type="reseau.besoinsEtFuites.Consommateur">
+      <rel name="noeud" ref="od_36" />
+      <rel name="modele" ref="ModeleConso.2" />
+      <attr name="valeur">810.0</attr>
+    </equipment>
+    <equipment id="Consommateur.45" type="reseau.besoinsEtFuites.Consommateur">
+      <rel name="noeud" ref="od_58" />
+      <rel name="modele" ref="ModeleConso.0" />
+      <attr name="valeur">4.0</attr>
+    </equipment>
+    <equipment id="Consommateur.46" type="reseau.besoinsEtFuites.Consommateur">
+      <rel name="noeud" ref="od_58" />
+      <rel name="modele" ref="ModeleConso.2" />
+      <attr name="valeur">570.0</attr>
+    </equipment>
+  </demands>
+  <secteurs>
+    <equipment id="Secteur.0">
+      <attr name="nomSecteur">Portulin</attr>
+      <group name="edges" />
+      <group name="nodes" />
+    </equipment>
+    <equipment id="Secteur.1">
+      <attr name="nomSecteur">Duka</attr>
+      <group name="edges" />
+      <group name="nodes" />
+    </equipment>
+    <equipment id="Secteur.2">
+      <attr name="nomSecteur">Bulwa</attr>
+      <group name="edges" />
+      <group name="nodes" />
+    </equipment>
+    <equipment id="Secteur.3">
+      <attr name="nomSecteur">North</attr>
+      <group name="edges" />
+      <group name="nodes" />
+    </equipment>
+    <equipment id="Secteur.4">
+      <attr name="nomSecteur">South</attr>
+      <group name="edges" />
+      <group name="nodes" />
+    </equipment>
+    <equipment id="Secteur.5">
+      <attr name="nomSecteur">Cabug</attr>
+      <group name="edges" />
+      <group name="nodes" />
+    </equipment>
+    <equipment id="Secteur.6">
+      <attr name="nomSecteur">Maanas</attr>
+      <group name="edges" />
+      <group name="nodes" />
+    </equipment>
+    <equipment id="Secteur.7">
+      <attr name="nomSecteur">San Vicente</attr>
+      <group name="edges" />
+      <group name="nodes" />
+    </equipment>
+    <equipment id="Secteur.8">
+      <attr name="nomSecteur">Bang-Bang</attr>
+      <group name="edges" />
+      <group name="nodes" />
+    </equipment>
+    <equipment id="Secteur.9">
+      <attr name="nomSecteur">San Jose</attr>
+      <group name="edges" />
+      <group name="nodes" />
+    </equipment>
+    <equipment id="Secteur.10">
+      <attr name="nomSecteur">Tambaga</attr>
+      <group name="edges" />
+      <group name="nodes" />
+    </equipment>
+  </secteurs>
+  <services />
+  <mesures />
+  <modules>
+    <equipment id="opointe">
+      <attr name="satisfaction">0.99</attr>
+    </equipment>
+    <equipment id="zomayet">
+      <attr name="dureePasDeTemps">300.0</attr>
+      <attr name="dureeSimulation">24.0</attr>
+      <attr name="heureDebut">0.0</attr>
+    </equipment>
+    <equipment id="qualite">
+      <attr name="pasDeTempsCalcul_s">300</attr>
+      <attr name="dureeSauvegarde_h">1.0</attr>
+      <attr name="heureDebutSauvegarde">0.0</attr>
+      <attr name="pasDeTempsSauvegarde_s">300</attr>
+      <attr name="modeInitialisationConcentrationOrdinaire">true</attr>
+      <attr name="concentrationOrdinaireInitiale">0.0</attr>
+      <attr name="reserveQStandardAgeMoyenInitial">0.0</attr>
+      <attr name="reserveQStandardConcentrationInitiale">0.0</attr>
+      <attr name="reserveQStandardConcentrationLibre">true</attr>
+      <attr name="reserveQStandardConstanteCinetique">0.0</attr>
+      <attr name="reserveQStandardOrdreCinetique">1.0</attr>
+      <group name="provenance" />
+    </equipment>
+    <equipment id="thermic">
+      <attr name="pasDeTempsThermic_sT">300</attr>
+      <attr name="dureeSauvegarde_hT">1.0</attr>
+      <attr name="heureDebutSauvegardeT">0.0</attr>
+      <attr name="pasDeTempsSauvegarde_sT">300</attr>
+      <attr name="modeInitialisationtemperatureOrdinaire">true</attr>
+      <attr name="temperatureOrdinaireInitiale">0.0</attr>
+      <attr name="reserveTStandardTemperatureInitiale">0.0</attr>
+      <attr name="reserveTStandardTemperatureLibre">true</attr>
+      <attr name="reserveTStandardThermicConstant">0.0</attr>
+      <attr name="reserveTStandardLimitExt">1.0</attr>
+    </equipment>
+  </modules>
+  <automates />
+  <qualitys>
+    <equipment id="QualiteTroncon.0">
+      <attr name="constante">0.0</attr>
+      <attr name="ordre">1.0</attr>
+      <attr name="ageing">true</attr>
+      <group name="edges">
+        <rel ref="33" />
+        <rel ref="34" />
+        <rel ref="35" />
+        <rel ref="36" />
+        <rel ref="37" />
+        <rel ref="38" />
+        <rel ref="39" />
+        <rel ref="40" />
+        <rel ref="41" />
+        <rel ref="42" />
+        <rel ref="43" />
+        <rel ref="44" />
+        <rel ref="45" />
+        <rel ref="46" />
+        <rel ref="47" />
+        <rel ref="48" />
+        <rel ref="49" />
+        <rel ref="50" />
+        <rel ref="51" />
+        <rel ref="52" />
+        <rel ref="53" />
+        <rel ref="54" />
+        <rel ref="55" />
+        <rel ref="56" />
+        <rel ref="57" />
+        <rel ref="58" />
+        <rel ref="59" />
+        <rel ref="60" />
+        <rel ref="61" />
+        <rel ref="62" />
+        <rel ref="63" />
+        <rel ref="64" />
+        <rel ref="65" />
+        <rel ref="66" />
+        <rel ref="67" />
+        <rel ref="68" />
+        <rel ref="69" />
+        <rel ref="70" />
+        <rel ref="71" />
+        <rel ref="72" />
+        <rel ref="73" />
+      </group>
+    </equipment>
+  </qualitys>
+  <thermics>
+    <equipment id="ThermicTroncon.0">
+      <attr name="constant">0.0</attr>
+      <attr name="limit">1.0</attr>
+      <group name="edges">
+        <rel ref="33" />
+        <rel ref="34" />
+        <rel ref="35" />
+        <rel ref="36" />
+        <rel ref="37" />
+        <rel ref="38" />
+        <rel ref="39" />
+        <rel ref="40" />
+        <rel ref="41" />
+        <rel ref="42" />
+        <rel ref="43" />
+        <rel ref="44" />
+        <rel ref="45" />
+        <rel ref="46" />
+        <rel ref="47" />
+        <rel ref="48" />
+        <rel ref="49" />
+        <rel ref="50" />
+        <rel ref="51" />
+        <rel ref="52" />
+        <rel ref="53" />
+        <rel ref="54" />
+        <rel ref="55" />
+        <rel ref="56" />
+        <rel ref="57" />
+        <rel ref="58" />
+        <rel ref="59" />
+        <rel ref="60" />
+        <rel ref="61" />
+        <rel ref="62" />
+        <rel ref="63" />
+        <rel ref="64" />
+        <rel ref="65" />
+        <rel ref="66" />
+        <rel ref="67" />
+        <rel ref="68" />
+        <rel ref="69" />
+        <rel ref="70" />
+        <rel ref="71" />
+        <rel ref="72" />
+        <rel ref="73" />
+      </group>
+    </equipment>
+  </thermics>
+  <hydraulicsPath>
+    <equipment id="profilEnLong.0">
+      <attr name="nom">DefaultProfileName</attr>
+      <attr name="echelleX">1.0</attr>
+      <attr name="echelleY">1.0</attr>
+      <attr name="planDeReference">0.0</attr>
+      <rel name="noeudOrigine" ref="Source Dagalas 2" />
+      <group name="edges" />
+    </equipment>
+  </hydraulicsPath>
+  <units>
+    <equipment id="unite.age">
+      <attr name="libelle">unité de temps-âge</attr>
+      <group name="unites">
+        <equipment id="uniteGradeur.0">
+          <attr name="nom">h</attr>
+          <attr name="facteur">1.0</attr>
+        </equipment>
+      </group>
+      <rel name="uniteDeBase" ref="uniteGradeur.0" />
+      <rel name="choixUtilisateur" ref="uniteGradeur.0" />
+    </equipment>
+    <equipment id="unite.concentration">
+      <attr name="libelle">unité de concentration</attr>
+      <group name="unites">
+        <equipment id="uniteGradeur.1">
+          <attr name="nom">mg/l</attr>
+          <attr name="facteur">1.0</attr>
+        </equipment>
+      </group>
+      <rel name="uniteDeBase" ref="uniteGradeur.1" />
+      <rel name="choixUtilisateur" ref="uniteGradeur.1" />
+    </equipment>
+    <equipment id="unite.debit">
+      <attr name="libelle">unité de débit</attr>
+      <group name="unites">
+        <equipment id="uniteGradeur.2">
+          <attr name="nom">l/s</attr>
+          <attr name="facteur">1.0</attr>
+        </equipment>
+      </group>
+      <rel name="uniteDeBase" ref="uniteGradeur.2" />
+      <rel name="choixUtilisateur" ref="uniteGradeur.2" />
+    </equipment>
+    <equipment id="unite.diametre">
+      <attr name="libelle">unité de diamètre - rugosité</attr>
+      <group name="unites">
+        <equipment id="uniteGradeur.3">
+          <attr name="nom">mm</attr>
+          <attr name="facteur">1.0</attr>
+        </equipment>
+      </group>
+      <rel name="uniteDeBase" ref="uniteGradeur.3" />
+      <rel name="choixUtilisateur" ref="uniteGradeur.3" />
+    </equipment>
+    <equipment id="unite.hauteur">
+      <attr name="libelle">unité de niveau et cote piézométrique</attr>
+      <group name="unites">
+        <equipment id="uniteGradeur.4">
+          <attr name="nom">m</attr>
+          <attr name="facteur">1.0</attr>
+        </equipment>
+      </group>
+      <rel name="uniteDeBase" ref="uniteGradeur.4" />
+      <rel name="choixUtilisateur" ref="uniteGradeur.4" />
+    </equipment>
+    <equipment id="unite.longueur">
+      <attr name="libelle">unité de longueur - vitesse (/s)</attr>
+      <group name="unites">
+        <equipment id="uniteGradeur.5">
+          <attr name="nom">m</attr>
+          <attr name="facteur">1.0</attr>
+        </equipment>
+      </group>
+      <rel name="uniteDeBase" ref="uniteGradeur.5" />
+      <rel name="choixUtilisateur" ref="uniteGradeur.5" />
+    </equipment>
+    <equipment id="unite.perteDeChargeUnitaire">
+      <attr name="libelle">unité de perte de charge unitaire</attr>
+      <group name="unites">
+        <equipment id="uniteGradeur.6">
+          <attr name="nom">mm/m</attr>
+          <attr name="facteur">1.0</attr>
+        </equipment>
+      </group>
+      <rel name="uniteDeBase" ref="uniteGradeur.6" />
+      <rel name="choixUtilisateur" ref="uniteGradeur.6" />
+    </equipment>
+    <equipment id="unite.pression">
+      <attr name="libelle">unité de pression</attr>
+      <group name="unites">
+        <equipment id="uniteGradeur.7">
+          <attr name="nom">m</attr>
+          <attr name="facteur">1.0</attr>
+        </equipment>
+      </group>
+      <rel name="uniteDeBase" ref="uniteGradeur.7" />
+      <rel name="choixUtilisateur" ref="uniteGradeur.7" />
+    </equipment>
+    <equipment id="unite.surface">
+      <attr name="libelle">unité de surface</attr>
+      <group name="unites">
+        <equipment id="uniteGradeur.8">
+          <attr name="nom">m2</attr>
+          <attr name="facteur">1.0</attr>
+        </equipment>
+      </group>
+      <rel name="uniteDeBase" ref="uniteGradeur.8" />
+      <rel name="choixUtilisateur" ref="uniteGradeur.8" />
+    </equipment>
+    <equipment id="unite.vitesse">
+      <attr name="libelle">unité de vitesse</attr>
+      <group name="unites">
+        <equipment id="uniteGradeur.9">
+          <attr name="nom">m/s</attr>
+          <attr name="facteur">1.0</attr>
+        </equipment>
+      </group>
+      <rel name="uniteDeBase" ref="uniteGradeur.9" />
+      <rel name="choixUtilisateur" ref="uniteGradeur.9" />
+    </equipment>
+    <equipment id="unite.vitesseAngulaire">
+      <attr name="libelle">unité de vitesse angulaire</attr>
+      <group name="unites">
+        <equipment id="uniteGradeur.10">
+          <attr name="nom">tr/min</attr>
+          <attr name="facteur">1.0</attr>
+        </equipment>
+      </group>
+      <rel name="uniteDeBase" ref="uniteGradeur.10" />
+      <rel name="choixUtilisateur" ref="uniteGradeur.10" />
+    </equipment>
+    <equipment id="unite.volume">
+      <attr name="libelle">unité de volume</attr>
+      <group name="unites">
+        <equipment id="uniteGradeur.11">
+          <attr name="nom">m3</attr>
+          <attr name="facteur">1.0</attr>
+        </equipment>
+      </group>
+      <rel name="uniteDeBase" ref="uniteGradeur.11" />
+      <rel name="choixUtilisateur" ref="uniteGradeur.11" />
+    </equipment>
+    <equipment id="unite.temperature">
+      <attr name="libelle">unité de température</attr>
+      <group name="unites">
+        <equipment id="uniteGradeur.12">
+          <attr name="nom">°C</attr>
+          <attr name="facteur">1.0</attr>
+        </equipment>
+      </group>
+      <rel name="uniteDeBase" ref="uniteGradeur.12" />
+      <rel name="choixUtilisateur" ref="uniteGradeur.12" />
+    </equipment>
+  </units>
+  <pipes>
+    <equipment id="Materiau.0" type="material">
+      <attr name="nom">Indéterminé</attr>
+      <attr name="nomAbrege">Ind</attr>
+      <attr name="rugositeDeBase">0.1</attr>
+      <attr name="hazenWilliamsDeBase">136.0</attr>
+      <group name="tuyaux">
+        <equipment id="Tuyau.0">
+          <attr name="diametreInterne">100.0</attr>
+          <attr name="diametreExterne">110.0</attr>
+          <attr name="hazenWilliams">136.0</attr>
+          <attr name="rugosite">0.1</attr>
+          <group name="edges">
+            <rel ref="33" />
+            <rel ref="34" />
+            <rel ref="35" />
+            <rel ref="36" />
+            <rel ref="37" />
+            <rel ref="38" />
+            <rel ref="39" />
+            <rel ref="40" />
+            <rel ref="41" />
+            <rel ref="42" />
+            <rel ref="43" />
+            <rel ref="44" />
+            <rel ref="45" />
+            <rel ref="46" />
+            <rel ref="47" />
+            <rel ref="48" />
+            <rel ref="49" />
+            <rel ref="50" />
+            <rel ref="51" />
+            <rel ref="52" />
+            <rel ref="53" />
+            <rel ref="54" />
+            <rel ref="55" />
+            <rel ref="56" />
+            <rel ref="57" />
+            <rel ref="58" />
+            <rel ref="59" />
+            <rel ref="60" />
+            <rel ref="61" />
+            <rel ref="62" />
+            <rel ref="63" />
+            <rel ref="64" />
+            <rel ref="65" />
+            <rel ref="66" />
+            <rel ref="67" />
+            <rel ref="68" />
+            <rel ref="69" />
+            <rel ref="70" />
+            <rel ref="71" />
+            <rel ref="72" />
+            <rel ref="73" />
+          </group>
+        </equipment>
+      </group>
+    </equipment>
+    <equipment id="Materiau.1" type="tuyauParDefaut">
+      <rel name="tuyauParDefaut" ref="Tuyau.0" />
+    </equipment>
+  </pipes>
+</porteau>
+
